@@ -142,6 +142,7 @@
 		78B0927E27B1DC0D003B27A6 /* GroupSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B0927D27B1DC0D003B27A6 /* GroupSearchCell.swift */; };
 		78B0928127B2F528003B27A6 /* BlockedAccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B0928027B2F528003B27A6 /* BlockedAccountsView.swift */; };
 		78B2379526DD159100052E69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B2379426DD159100052E69 /* ContentView.swift */; };
+		78B439342AC4EFD20066383D /* OmenTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 78B439332AC4EFD20066383D /* OmenTextField */; };
 		78B4A45A27038E82000940E8 /* MessagePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B4A45927038E82000940E8 /* MessagePopup.swift */; };
 		78B5935528959E73006F5FDF /* GroupGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5935428959E73006F5FDF /* GroupGalleryView.swift */; };
 		78B593582895AE4A006F5FDF /* PHPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B593572895AE4A006F5FDF /* PHPicker.swift */; };
@@ -533,6 +534,7 @@
 				78C34CD42A15BE63005715DB /* JZCalendarWeekView in Frameworks */,
 				78C34CBA2A141FA4005715DB /* ElegantCalendar in Frameworks */,
 				78199CEA28467F7F00335E52 /* MapKit.framework in Frameworks */,
+				78B439342AC4EFD20066383D /* OmenTextField in Frameworks */,
 				78EB69AC2AC3E243004951D6 /* OmenTextField in Frameworks */,
 				788B8F3F27D3C09300267030 /* SCSDKCreativeKit.xcframework in Frameworks */,
 				78066FDA296DBA1D005A4FDC /* LegacyScrollView in Frameworks */,
@@ -1162,6 +1164,7 @@
 				78E8E77E2A4E59A200310C74 /* FirebaseMessaging */,
 				789C6ECB2A5788D700290899 /* ScalingHeaderScrollView */,
 				78EB69AB2AC3E243004951D6 /* OmenTextField */,
+				78B439332AC4EFD20066383D /* OmenTextField */,
 			);
 			productName = TopSecret;
 			productReference = 789FC2C32617DA700021616B /* Top Secret.app */;
@@ -1206,6 +1209,7 @@
 				78E8E75A2A48E2E200310C74 /* XCRemoteSwiftPackageReference "advanced-scrollview" */,
 				78E8E7752A4E50B000310C74 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				789C6ECA2A5788D600290899 /* XCRemoteSwiftPackageReference "ScalingHeaderScrollView" */,
+				78B439322AC4EFD20066383D /* XCRemoteSwiftPackageReference "OmenTextField" */,
 			);
 			productRefGroup = 789FC2C42617DA700021616B /* Products */;
 			projectDirPath = "";
@@ -1795,6 +1799,14 @@
 				minimumVersion = 4.0.0;
 			};
 		};
+		78B439322AC4EFD20066383D /* XCRemoteSwiftPackageReference "OmenTextField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kitlangton/OmenTextField";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.6;
+			};
+		};
 		78C1B2B7285C02B800A5DE58 /* XCRemoteSwiftPackageReference "PartialSheet" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AndreaMiotto/PartialSheet";
@@ -1893,6 +1905,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 78AFB7082A34009B0087EE9E /* XCRemoteSwiftPackageReference "PagerTabStripView" */;
 			productName = PagerTabStripView;
+		};
+		78B439332AC4EFD20066383D /* OmenTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78B439322AC4EFD20066383D /* XCRemoteSwiftPackageReference "OmenTextField" */;
+			productName = OmenTextField;
 		};
 		78C1B2B8285C02B800A5DE58 /* PartialSheet */ = {
 			isa = XCSwiftPackageProductDependency;
