@@ -9,7 +9,7 @@ import SDWebImageSwiftUI
 import SwiftUI
 
 struct ExcludeMembersToEventView: View {
-    
+   //test
     @EnvironmentObject var userVM: UserViewModel
     @Binding var selectedUsers : [User]
     @StateObject var searchVM = SearchRepository()
