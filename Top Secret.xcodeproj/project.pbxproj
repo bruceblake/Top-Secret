@@ -169,7 +169,6 @@
 		78C34CBA2A141FA4005715DB /* ElegantCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 78C34CB92A141FA4005715DB /* ElegantCalendar */; };
 		78C34CBE2A1420A7005715DB /* ElegantPages in Frameworks */ = {isa = PBXBuildFile; productRef = 78C34CBD2A1420A7005715DB /* ElegantPages */; };
 		78C34CC72A1565E6005715DB /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C34CC62A1565E6005715DB /* Package.swift */; };
-		78C34CCB2A156C65005715DB /* ExyteMediaPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 78C34CCA2A156C65005715DB /* ExyteMediaPicker */; };
 		78C34CD42A15BE63005715DB /* JZCalendarWeekView in Frameworks */ = {isa = PBXBuildFile; productRef = 78C34CD32A15BE63005715DB /* JZCalendarWeekView */; };
 		78C34CF82A1948A3005715DB /* EventsTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C34CF72A1948A3005715DB /* EventsTabViewModel.swift */; };
 		78C4DCC127B5592D000F0337 /* UserNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C4DCC027B5592D000F0337 /* UserNotificationView.swift */; };
@@ -245,6 +244,7 @@
 		78E8E77F2A4E59A200310C74 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 78E8E77E2A4E59A200310C74 /* FirebaseMessaging */; };
 		78E938D226FCB573006D630F /* GroupListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E938D126FCB573006D630F /* GroupListCell.swift */; };
 		78E938D826FE3722006D630F /* GroupUsersListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E938D726FE3722006D630F /* GroupUsersListCell.swift */; };
+		78EB69AC2AC3E243004951D6 /* OmenTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 78EB69AB2AC3E243004951D6 /* OmenTextField */; };
 		78EBA08B287B9C26008B51EC /* KeyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EBA08A287B9C26008B51EC /* KeyPad.swift */; };
 		78EBBC28288075DF00095D05 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EBBC27288075DF00095D05 /* TopBar.swift */; };
 		78EBBC2B2880875700095D05 /* GroupNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EBBC2A2880875700095D05 /* GroupNotificationsView.swift */; };
@@ -493,6 +493,7 @@
 		78E73A6B28721EFD00EE0887 /* TextLimitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLimitViewModel.swift; sourceTree = "<group>"; };
 		78E938D126FCB573006D630F /* GroupListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListCell.swift; sourceTree = "<group>"; };
 		78E938D726FE3722006D630F /* GroupUsersListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupUsersListCell.swift; sourceTree = "<group>"; };
+		78EB69AA2AC3E1A0004951D6 /* OmenTextField */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = OmenTextField; path = ../../.Trash/OmenTextField; sourceTree = "<group>"; };
 		78EBA08A287B9C26008B51EC /* KeyPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPad.swift; sourceTree = "<group>"; };
 		78EBBC27288075DF00095D05 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
 		78EBBC2A2880875700095D05 /* GroupNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupNotificationsView.swift; sourceTree = "<group>"; };
@@ -532,6 +533,7 @@
 				78C34CD42A15BE63005715DB /* JZCalendarWeekView in Frameworks */,
 				78C34CBA2A141FA4005715DB /* ElegantCalendar in Frameworks */,
 				78199CEA28467F7F00335E52 /* MapKit.framework in Frameworks */,
+				78EB69AC2AC3E243004951D6 /* OmenTextField in Frameworks */,
 				788B8F3F27D3C09300267030 /* SCSDKCreativeKit.xcframework in Frameworks */,
 				78066FDA296DBA1D005A4FDC /* LegacyScrollView in Frameworks */,
 				78E8E75C2A48E2E300310C74 /* AdvancedScrollView in Frameworks */,
@@ -539,7 +541,6 @@
 				78E8E7772A4E50B000310C74 /* FirebaseAuth in Frameworks */,
 				783ADC9B27545C1600FD517D /* SDWebImageSwiftUI in Frameworks */,
 				78ABDC5929647C1300D442B8 /* AdvancedList in Frameworks */,
-				78C34CCB2A156C65005715DB /* ExyteMediaPicker in Frameworks */,
 				78ABDC5F2965291900D442B8 /* OpenSwiftUIViews in Frameworks */,
 				78C1B2B9285C02B800A5DE58 /* PartialSheet in Frameworks */,
 				78E8E77D2A4E50B000310C74 /* FirebaseStorage in Frameworks */,
@@ -690,6 +691,7 @@
 		789FC2BA2617DA700021616B = {
 			isa = PBXGroup;
 			children = (
+				78EB69AA2AC3E1A0004951D6 /* OmenTextField */,
 				7893C86D2A22865400F708FE /* ExcludeMembersToEventView.swift */,
 				7893C86B2A218C0C00F708FE /* InviteMembersToEventView.swift */,
 				7893C8692A217E9300F708FE /* AddEventDescriptionView.swift */,
@@ -1150,7 +1152,6 @@
 				78066FD9296DBA1D005A4FDC /* LegacyScrollView */,
 				78C34CB92A141FA4005715DB /* ElegantCalendar */,
 				78C34CBD2A1420A7005715DB /* ElegantPages */,
-				78C34CCA2A156C65005715DB /* ExyteMediaPicker */,
 				78C34CD32A15BE63005715DB /* JZCalendarWeekView */,
 				78AFB7092A34009C0087EE9E /* PagerTabStripView */,
 				78E8E75B2A48E2E300310C74 /* AdvancedScrollView */,
@@ -1160,6 +1161,7 @@
 				78E8E77C2A4E50B000310C74 /* FirebaseStorage */,
 				78E8E77E2A4E59A200310C74 /* FirebaseMessaging */,
 				789C6ECB2A5788D700290899 /* ScalingHeaderScrollView */,
+				78EB69AB2AC3E243004951D6 /* OmenTextField */,
 			);
 			productName = TopSecret;
 			productReference = 789FC2C32617DA700021616B /* Top Secret.app */;
@@ -1194,7 +1196,6 @@
 				78C1B2B7285C02B800A5DE58 /* XCRemoteSwiftPackageReference "PartialSheet" */,
 				78A9707C28F351410087B5AE /* XCRemoteSwiftPackageReference "amadeus-ios" */,
 				788902922957EC910073320F /* XCRemoteSwiftPackageReference "YPImagePicker" */,
-				78890299295CB0620073320F /* XCRemoteSwiftPackageReference "MediaPicker" */,
 				78ABDC5729647C1300D442B8 /* XCRemoteSwiftPackageReference "AdvancedList" */,
 				78ABDC5D2965291900D442B8 /* XCRemoteSwiftPackageReference "OpenSwiftUIViews" */,
 				78066FD8296DBA1C005A4FDC /* XCRemoteSwiftPackageReference "LegacyScrollView" */,
@@ -1754,14 +1755,6 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		78890299295CB0620073320F /* XCRemoteSwiftPackageReference "MediaPicker" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/exyte/MediaPicker";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.1;
-			};
-		};
 		789C6ECA2A5788D600290899 /* XCRemoteSwiftPackageReference "ScalingHeaderScrollView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/exyte/ScalingHeaderScrollView";
@@ -1916,11 +1909,6 @@
 			package = 78C34CBC2A1420A7005715DB /* XCRemoteSwiftPackageReference "ElegantPages" */;
 			productName = ElegantPages;
 		};
-		78C34CCA2A156C65005715DB /* ExyteMediaPicker */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 78890299295CB0620073320F /* XCRemoteSwiftPackageReference "MediaPicker" */;
-			productName = ExyteMediaPicker;
-		};
 		78C34CD32A15BE63005715DB /* JZCalendarWeekView */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 78C34CD22A15BE63005715DB /* XCRemoteSwiftPackageReference "JZCalendarWeekView" */;
@@ -1960,6 +1948,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 78E8E7752A4E50B000310C74 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseMessaging;
+		};
+		78EB69AB2AC3E243004951D6 /* OmenTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OmenTextField;
 		};
 /* End XCSwiftPackageProductDependency section */
 
