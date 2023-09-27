@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DB3C521F-7819-442F-A7E6-0A9BD355E2C9"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0034D66-0241-4F5C-9DC9-CBEFE406189F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TopSecret/ViewModel/UserViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "UserViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E0034D66-0241-4F5C-9DC9-CBEFE406189F - 2e0ab7ffb494ea1f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of Top_Secret.UserViewModel.userNotificationCount : Swift.Int"
+                  moduleName = "Top Secret"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bruceblake/Desktop/Top%20Secret/TopSecret/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "E0034D66-0241-4F5C-9DC9-CBEFE406189F - 55f5347a60973707"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Top_Secret.UserViewModel.userNotificationCount.getter : Swift.Int"
+                  moduleName = "Top Secret"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bruceblake/Desktop/Top%20Secret/TopSecret/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "E0034D66-0241-4F5C-9DC9-CBEFE406189F - 31d563fb9db18b23"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Top_Secret.UserViewModel.userNotificationCount.setter : Swift.Int"
+                  moduleName = "Top Secret"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bruceblake/Desktop/Top%20Secret/TopSecret/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "E0034D66-0241-4F5C-9DC9-CBEFE406189F - 1aaa9127f8085810"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Top_Secret.UserViewModel.userNotificationCount.modify : Swift.Int"
+                  moduleName = "Top Secret"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bruceblake/Desktop/Top%20Secret/TopSecret/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "E0034D66-0241-4F5C-9DC9-CBEFE406189F - 98550f700ddf5bab"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Top_Secret.UserViewModel.userNotificationCount.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Top Secret"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bruceblake/Desktop/Top%20Secret/TopSecret/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "E0034D66-0241-4F5C-9DC9-CBEFE406189F - e31d3f4350224834"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Top_Secret.UserViewModel.$userNotificationCount.getter : Combine.Published&lt;Swift.Int&gt;.Publisher"
+                  moduleName = "Top Secret"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bruceblake/Desktop/Top%20Secret/TopSecret/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "94">
+               </Location>
+               <Location
+                  uuid = "E0034D66-0241-4F5C-9DC9-CBEFE406189F - 7ce65f2293586028"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Top_Secret.UserViewModel.$userNotificationCount.setter : Combine.Published&lt;Swift.Int&gt;.Publisher"
+                  moduleName = "Top Secret"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bruceblake/Desktop/Top%20Secret/TopSecret/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "E0034D66-0241-4F5C-9DC9-CBEFE406189F - 9df1d1c4c54a91f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Top_Secret.UserViewModel.$userNotificationCount.modify : Combine.Published&lt;Swift.Int&gt;.Publisher"
+                  moduleName = "Top Secret"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bruceblake/Desktop/Top%20Secret/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "E0034D66-0241-4F5C-9DC9-CBEFE406189F - 766920266a58587b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Top_Secret.UserViewModel.$userNotificationCount.modify : Combine.Published&lt;Swift.Int&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Top Secret"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bruceblake/Desktop/Top%20Secret/TopSecret/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "E0034D66-0241-4F5C-9DC9-CBEFE406189F - 3f2500594405c2a4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Top_Secret.UserViewModel.init() -&gt; Top_Secret.UserViewModel"
+                  moduleName = "Top Secret"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bruceblake/Desktop/Top%20Secret/TopSecret/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1569">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3535A632-6899-4BCC-8A9F-5800EE2E8D5B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TopSecret/Model/UserModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "init(dictionary:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6E64F3D-32F8-4078-8A98-3880522BDE9A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TopSecret/GroupPostCommentsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF16297B-9F1B-4267-80F7-FE46F52C846F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TopSecret/GroupPostCommentsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4639A0E-1477-4463-9991-5051B84DA848"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TopSecret/View/Cells/GroupPostCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "345"
+            endingLineNumber = "345"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "746071A7-363D-4DDF-A15C-4974A7FEABC5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/Top_Secret-bydteqkjxxjssmhbyhysmalgbzlq/SourcePackages/checkouts/gtm-session-fetcher/Source/GTMSessionFetcherService.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "285"
+            endingLineNumber = "285"
+            landmarkName = "-sessionForFetcherCreation"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5EFA9FBC-08B5-43E7-8A6C-7C6220E0732E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TopSecret/View/Tabs/HomescreenTab/HomeScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
+            landmarkName = "feedFilter"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8FD6F398-8E74-4E7F-BDA0-083AC70C038A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TopSecret/GroupPostCommentsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "282E9218-1493-4DAF-9D87-A5E211620B4C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TopSecret/View/Tabs/VotingTab/GroupTab/AddContent/Group Story/CreateStoryPostView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2"
+            endingLineNumber = "2"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
