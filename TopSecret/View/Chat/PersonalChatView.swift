@@ -3,8 +3,6 @@ import SDWebImageSwiftUI
 import Foundation
 import Firebase
 import FirebaseStorage
-import OmenTextField
-import MediaPicker
 import AVFoundation
 import AVKit
 import FirebaseFirestoreSwift
