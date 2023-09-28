@@ -67,15 +67,6 @@
 	<string></string>
 	<key>NSContactsUsageDescription</key>
 	<string>Top Secret requires access to your contacts</string>
-	<key>SCSDKClientId</key>
-	<string>b2f6e10d-833d-4fbc-9c43-ce00d6f1600b</string>
-	<key>SCSDKRedirectUrl</key>
-	<string>topsecret://app</string>
-	<key>SCSDKScopes</key>
-	<array>
-		<string>https://auth.snapchat.com/oauth2/api/user.bitmoji.avatar</string>
-		<string>https://auth.snapchat.com/oauth2/api/user.display_name</string>
-	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

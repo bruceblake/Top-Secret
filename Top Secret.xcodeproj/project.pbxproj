@@ -496,8 +496,6 @@
 		78F874DF27A5DBD800209B93 /* EditMessageOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMessageOverlay.swift; sourceTree = "<group>"; };
 		78F874E227A6FD3200209B93 /* TabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewModel.swift; sourceTree = "<group>"; };
 		78FFE7FD28C443A7007B3FC9 /* FinishedPollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedPollCell.swift; sourceTree = "<group>"; };
-		B220D744A34E16E7899578F6 /* Pods-Top Secret.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top Secret.release.xcconfig"; path = "Target Support Files/Pods-Top Secret/Pods-Top Secret.release.xcconfig"; sourceTree = "<group>"; };
-		C31C526801053B86EEF3A3E3 /* Pods-Top Secret.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top Secret.debug.xcconfig"; path = "Target Support Files/Pods-Top Secret/Pods-Top Secret.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -525,8 +523,6 @@
 		3C3C19EA316460B06F8484CC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C31C526801053B86EEF3A3E3 /* Pods-Top Secret.debug.xcconfig */,
-				B220D744A34E16E7899578F6 /* Pods-Top Secret.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1592,7 +1588,6 @@
 		};
 		789FC2D32617DA720021616B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C31C526801053B86EEF3A3E3 /* Pods-Top Secret.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1621,7 +1616,6 @@
 		};
 		789FC2D42617DA720021616B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B220D744A34E16E7899578F6 /* Pods-Top Secret.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
