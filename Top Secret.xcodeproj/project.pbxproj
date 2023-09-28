@@ -346,7 +346,6 @@
 		788A470627551295003A6232 /* EnterUserProfilePicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterUserProfilePicture.swift; sourceTree = "<group>"; };
 		788B8F2027D3072F00267030 /* BackCircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackCircleButton.swift; sourceTree = "<group>"; };
 		788B8F2927D3AEA100267030 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		788B8F3B27D3BC9000267030 /* SCSDKCreativeKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SCSDKCreativeKit.xcframework; path = Pods/SnapSDK/SCSDKCreativeKit.xcframework; sourceTree = "<group>"; };
 		788C07D728FC8AFA00B165AC /* PersonalChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalChatViewModel.swift; sourceTree = "<group>"; };
 		789136C328F58CEA005278E1 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		789136C528F593D9005278E1 /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
@@ -411,7 +410,6 @@
 		78C1B2C22863D9E700A5DE58 /* GroupEditBio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupEditBio.swift; sourceTree = "<group>"; };
 		78C34CB72A102253005715DB /* eventbriteapiv3public.apib */ = {isa = PBXFileReference; lastKnownFileType = text; name = eventbriteapiv3public.apib; path = ../../Downloads/eventbriteapiv3public.apib; sourceTree = "<group>"; };
 		78C34CC62A1565E6005715DB /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		78C34CF32A18494F005715DB /* InfiniteCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = InfiniteCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C34CF72A1948A3005715DB /* EventsTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTabViewModel.swift; sourceTree = "<group>"; };
 		78C4DCC027B5592D000F0337 /* UserNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationView.swift; sourceTree = "<group>"; };
 		78C4DCC727B566F5000F0337 /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
@@ -464,8 +462,6 @@
 		78D6B51227D0143A00D456AE /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		78D6B51D27D0147B00D456AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "TopSecret/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		78D6B52427D034EC00D456AE /* TopSecretApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSecretApp.swift; sourceTree = "<group>"; };
-		78D6B52E27D2860700D456AE /* SCSDKCoreKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SCSDKCoreKit.xcframework; path = Pods/SnapSDK/SCSDKCoreKit.xcframework; sourceTree = "<group>"; };
-		78D6B53227D2861000D456AE /* SCSDKLoginKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SCSDKLoginKit.xcframework; path = Pods/SnapSDK/SCSDKLoginKit.xcframework; sourceTree = "<group>"; };
 		78DC8670274696CB0000BE9D /* RegisterValidationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterValidationViewModel.swift; sourceTree = "<group>"; };
 		78DF868B27DF903000D953E1 /* GalleryPostShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryPostShareView.swift; sourceTree = "<group>"; };
 		78E0BD47288D7C1A00CDE92D /* UserNotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationModel.swift; sourceTree = "<group>"; };
@@ -1081,13 +1077,9 @@
 		B53BE212FF9A57605836D178 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				78C34CF32A18494F005715DB /* InfiniteCalendar.framework */,
 				78C34CB72A102253005715DB /* eventbriteapiv3public.apib */,
 				78199CE928467F7F00335E52 /* MapKit.framework */,
-				788B8F3B27D3BC9000267030 /* SCSDKCreativeKit.xcframework */,
 				788B8F2927D3AEA100267030 /* SwiftUI.framework */,
-				78D6B53227D2861000D456AE /* SCSDKLoginKit.xcframework */,
-				78D6B52E27D2860700D456AE /* SCSDKCoreKit.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
