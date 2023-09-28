@@ -8,7 +8,6 @@ import Foundation
 import Firebase
 import SwiftUI
 import Combine
-import SCSDKLoginKit
 import Network
 import FirebaseStorage
 

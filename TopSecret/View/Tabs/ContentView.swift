@@ -7,7 +7,6 @@
 
 import SwiftUI
 import UIKit
-import SCSDKLoginKit
 import SDWebImageSwiftUI
 import CoreData
 

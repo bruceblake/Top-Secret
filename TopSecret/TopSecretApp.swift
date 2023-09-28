@@ -6,9 +6,7 @@
 //
 import SwiftUI
 import Firebase
-import SCSDKCoreKit
 import UIKit
-import SCSDKLoginKit
 import UserNotifications
 import CoreData
 
