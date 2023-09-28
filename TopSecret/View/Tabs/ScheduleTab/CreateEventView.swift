@@ -363,9 +363,10 @@ struct CreateEventView: View {
                                     }.padding(.bottom,5)
                                 }.sheet(isPresented: $openInviteMembersView, content: {
                                     InviteMembersToEventView(selectedUsers: $invitedMembers, openInviteFriendsView: $openInviteMembersView, openAddContactsView: $openAddContactsView, excludedMembers: excludedMembers)
-                                }).sheet(isPresented: $openAddContactsView, content: {
-                                    ContactsView(contactVM: contactVM)
                                 })
+//                                .sheet(isPresented: $openAddContactsView, content: {
+//                                    ContactsView(contactVM: contactVM)
+//                                })
 
                                 if selectedOption == 0 {
                                     Divider()
