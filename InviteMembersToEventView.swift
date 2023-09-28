@@ -237,45 +237,45 @@ struct InviteMembersToEventView: View {
 }
 
 
-
-struct ContactsView : View {
-    @StateObject var contactVM = ContactsViewModel()
-    @State private var searchText: String = ""
-    var body: some View {
-        ZStack{
-            Color("Background")
-            VStack{
-                HStack{
-                    Button(action:{
-                        
-                    },label:{
-                        ZStack{
-                            Circle().frame(width: 40, height: 40).foregroundColor(Color("Color"))
-                            Image(systemName: "chevron.left").foregroundColor(FOREGROUNDCOLOR)
-                        }
-                    })
-                    
-                    Spacer()
-                    
-                    Text("Contacts").font(.title2)
-                    Spacer()
-                    Circle().frame(width: 40, height: 40).foregroundColor(Color.clear)
-                }.padding(.top,50).padding(.horizontal)
-                SearchBarView(text: $searchText, placeholder: "search")
-                ForEach(contactVM.contacts.filter{self.searchText.isEmpty ? true : $0.givenName.lowercased().contains(self.searchText.lowercased())}, id: \.self.name){ (contact: CNContact) in
-                    VStack(alignment: .leading){
-                        Text(contact.name)
-                    }
-                }
-                Spacer()
-            }
-        }.edgesIgnoringSafeArea(.all).navigationBarHidden(true).onAppear{
-            DispatchQueue.main.async{
-                contactVM.fetch()
-            }
-        }
-    }
-}
+//
+//struct ContactsView : View {
+//    @StateObject var contactVM = ContactsViewModel()
+//    @State private var searchText: String = ""
+//    var body: some View {
+//        ZStack{
+//            Color("Background")
+//            VStack{
+//                HStack{
+//                    Button(action:{
+//                        
+//                    },label:{
+//                        ZStack{
+//                            Circle().frame(width: 40, height: 40).foregroundColor(Color("Color"))
+//                            Image(systemName: "chevron.left").foregroundColor(FOREGROUNDCOLOR)
+//                        }
+//                    })
+//                    
+//                    Spacer()
+//                    
+//                    Text("Contacts").font(.title2)
+//                    Spacer()
+//                    Circle().frame(width: 40, height: 40).foregroundColor(Color.clear)
+//                }.padding(.top,50).padding(.horizontal)
+//                SearchBarView(text: $searchText, placeholder: "search")
+//                ForEach(contactVM.contacts.filter{self.searchText.isEmpty ? true : $0.givenName.lowercased().contains(self.searchText.lowercased())}, id: \.self.name){ (contact: CNContact) in
+//                    VStack(alignment: .leading){
+//                        Text(contact.name)
+//                    }
+//                }
+//                Spacer()
+//            }
+//        }.edgesIgnoringSafeArea(.all).navigationBarHidden(true).onAppear{
+//            DispatchQueue.main.async{
+//                contactVM.fetch()
+//            }
+//        }
+//    }
+//}
 
 struct SearchBarView : UIViewRepresentable {
     @Binding var text: String

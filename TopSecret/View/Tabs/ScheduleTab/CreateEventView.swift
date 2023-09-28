@@ -55,7 +55,7 @@ struct CreateEventView: View {
     @Binding var showAddEventView : Bool
     @State var selectedAnImage : Bool = false
     
-    @StateObject var contactVM = ContactsViewModel()
+//    @StateObject var contactVM = ContactsViewModel()
 
     
     var body: some View {
