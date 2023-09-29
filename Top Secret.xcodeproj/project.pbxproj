@@ -136,6 +136,7 @@
 		78B0927E27B1DC0D003B27A6 /* GroupSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B0927D27B1DC0D003B27A6 /* GroupSearchCell.swift */; };
 		78B0928127B2F528003B27A6 /* BlockedAccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B0928027B2F528003B27A6 /* BlockedAccountsView.swift */; };
 		78B2379526DD159100052E69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B2379426DD159100052E69 /* ContentView.swift */; };
+		78B3A8082AC7735C0059DB77 /* OmenTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 78B3A8072AC7735C0059DB77 /* OmenTextField */; };
 		78B4A45A27038E82000940E8 /* MessagePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B4A45927038E82000940E8 /* MessagePopup.swift */; };
 		78B5935528959E73006F5FDF /* GroupGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B5935428959E73006F5FDF /* GroupGalleryView.swift */; };
 		78B593582895AE4A006F5FDF /* PHPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B593572895AE4A006F5FDF /* PHPicker.swift */; };
@@ -385,6 +386,7 @@
 		78B0927D27B1DC0D003B27A6 /* GroupSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSearchCell.swift; sourceTree = "<group>"; };
 		78B0928027B2F528003B27A6 /* BlockedAccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockedAccountsView.swift; sourceTree = "<group>"; };
 		78B2379426DD159100052E69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		78B3A8062AC772F70059DB77 /* OmenTextField */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = OmenTextField; path = ../../../.Trash/OmenTextField; sourceTree = "<group>"; };
 		78B4A45927038E82000940E8 /* MessagePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePopup.swift; sourceTree = "<group>"; };
 		78B5935428959E73006F5FDF /* GroupGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupGalleryView.swift; sourceTree = "<group>"; };
 		78B593572895AE4A006F5FDF /* PHPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPicker.swift; sourceTree = "<group>"; };
@@ -508,6 +510,7 @@
 				78E8E77B2A4E50B000310C74 /* FirebaseFirestoreSwift in Frameworks */,
 				78E8E7792A4E50B000310C74 /* FirebaseFirestore in Frameworks */,
 				78199CEA28467F7F00335E52 /* MapKit.framework in Frameworks */,
+				78B3A8082AC7735C0059DB77 /* OmenTextField in Frameworks */,
 				78E8E7772A4E50B000310C74 /* FirebaseAuth in Frameworks */,
 				783ADC9B27545C1600FD517D /* SDWebImageSwiftUI in Frameworks */,
 				78C1B2B9285C02B800A5DE58 /* PartialSheet in Frameworks */,
@@ -671,6 +674,7 @@
 		789FC2C52617DA700021616B /* TopSecret */ = {
 			isa = PBXGroup;
 			children = (
+				78B3A8062AC772F70059DB77 /* OmenTextField */,
 				7889028F2957DA5A0073320F /* Video */,
 				782314AB2894310900F08849 /* New Group */,
 				78E6F1F5273AB0B500AFE7EB /* Repositories */,
@@ -1099,6 +1103,7 @@
 				78E8E77C2A4E50B000310C74 /* FirebaseStorage */,
 				78E8E77E2A4E59A200310C74 /* FirebaseMessaging */,
 				789C6ECB2A5788D700290899 /* ScalingHeaderScrollView */,
+				78B3A8072AC7735C0059DB77 /* OmenTextField */,
 			);
 			productName = TopSecret;
 			productReference = 789FC2C32617DA700021616B /* Top Secret.app */;
@@ -1674,6 +1679,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 78AFB7082A34009B0087EE9E /* XCRemoteSwiftPackageReference "PagerTabStripView" */;
 			productName = PagerTabStripView;
+		};
+		78B3A8072AC7735C0059DB77 /* OmenTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OmenTextField;
 		};
 		78C1B2B8285C02B800A5DE58 /* PartialSheet */ = {
 			isa = XCSwiftPackageProductDependency;
