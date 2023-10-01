@@ -13,7 +13,7 @@ struct DiscoverView : View{
     @State var type : String = "restaurant"
     @StateObject var locationManager = LocationManager()
     @EnvironmentObject var userVM: UserViewModel
-    @StateObject var eventVM = EventsTabViewModel()
+    @EnvironmentObject var eventVM : EventsTabViewModel
     @State var searchText : String = ""
     @State var showAddEventView: Bool = false
     let formatter: NumberFormatter = {
@@ -194,11 +194,7 @@ struct DiscoverView : View{
                 EmptyView()
             }
         }.edgesIgnoringSafeArea(.all).frame(width: UIScreen.main.bounds.width).onAppear{
-            eventVM.fetchAttendingEvents(user: userVM.user ?? User())
-            eventVM.fetchDiscoverEvents(user: userVM.user ?? User())
-            eventVM.fetchOpenToFriendsEvents(user: userVM.user ?? User())
-            eventVM.fetchInvitedToEvents(user: userVM.user ?? User())
-            eventVM.fetchPastEvents(user: userVM.user ?? User())
+            eventVM.listenToEvents()
         }.onDisappear{
             eventVM.removeListeners()
         }

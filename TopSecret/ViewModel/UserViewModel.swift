@@ -14,6 +14,9 @@ import FirebaseStorage
 class UserViewModel : ObservableObject {
     
     
+
+    
+    
     let notificationSender = PushNotificationSender()
     //firebase
     @Published var userSession : FirebaseAuth.User?
@@ -1144,6 +1147,9 @@ class UserViewModel : ObservableObject {
         self.listenToNotifications(userID: uid)
     }
     
+   
+    
+
     
     func resetPassword(email: String){
         Auth.auth().sendPasswordReset(withEmail: email) { (err) in

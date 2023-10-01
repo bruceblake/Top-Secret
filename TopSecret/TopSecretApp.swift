@@ -20,7 +20,7 @@ struct TopSecretApp: App {
         
         WindowGroup {
             ContentView().environmentObject(UserViewModel()).environmentObject(TabViewModel())
-                .environmentObject(RegisterValidationViewModel()).environmentObject(SelectedGroupViewModel()).environmentObject(ShareViewModel()).environmentObject(LocationManager())
+                .environmentObject(RegisterValidationViewModel()).environmentObject(SelectedGroupViewModel()).environmentObject(ShareViewModel()).environmentObject(LocationManager()).environmentObject(EventsTabViewModel())
         }
     }
 }
