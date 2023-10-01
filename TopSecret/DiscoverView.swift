@@ -39,34 +39,7 @@ struct DiscoverView : View{
                     ScrollView(showsIndicators: false){
                         VStack(spacing: 20){
                             
-                            VStack(alignment: .leading){
-                                Text("Discover").font(.title2).bold().padding(.leading,5)
-                                ScrollView(.horizontal, showsIndicators: false){
-                                    HStack(spacing: 20){
-                                        if eventVM.isLoadingDiscoverEvents {
-                                            ProgressView()
-                                        }else{
-                                            
-                                            if eventVM.discoverEvents.isEmpty{
-                                                Text("Currently there are no events, come back later?").padding(.leading,5).foregroundColor(Color.gray)
-                                            }else{
-                                                ForEach(eventVM.discoverEvents.uniqued(), id: \.id) { event in
-                                                    Button(action:{
-                                                        self.selectedEvent = event
-                                                        self.showAddEventView.toggle()
-                                                    },label:{
-                                                        EventTabEventCell(event: event, eventsVM: eventVM, userIsAttending: event.usersAttendingID?.contains(userVM.user?.id ?? " ") ?? false)
-                                                    })
-                                                 
-                                                   
-                                                }
-                                            }
-                                           
-                                        }
-                                    }
-                                    
-                                }
-                            }
+                          
                             
                             VStack(alignment: .leading){
                                 Text("Attending").font(.title2).bold().padding(.leading,5)
